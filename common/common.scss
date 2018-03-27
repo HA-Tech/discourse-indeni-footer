@@ -1,0 +1,300 @@
+#footer {
+    width: 100%;
+    float: left;
+    color: #fff;
+    background: #45a9dd;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+#footer::after {
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #1a3159;
+    z-index: 0;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer .wrapper {
+    width: 100%;
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto;
+}
+
+#footer .nav {
+    width: 80%;
+    float: left;
+    background: #45a9dd;
+    position: relative;
+    z-index: 99;
+}
+
+#footer .nav ul {
+    width: 100%;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+#footer .nav ul li {
+    width: 25%;
+    float: left;
+    display: block;
+    padding: 35px 40px 40px;
+    border-left: 1px solid #68c0ed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#footer .nav ul li a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+    cursor: default;
+}
+
+#footer .nav ul li ul {
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 5px 0 !important;
+    list-style: none;
+    position: relative;
+}
+
+#footer .nav ul li ul li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#footer .nav ul li ul li a {
+    display: block;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 2px 0;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+#footer .nav ul li ul li.menu-item-has-children a.parent-1 {
+    font-weight: bold;
+}
+
+#footer .nav ul li ul li ul {
+    padding: 0;
+}
+
+#footer .nav ul li ul li ul li a {
+    font-size: 15px;
+    padding: 2px 0;
+}
+
+#footer .main {
+    width: 20%;
+    float: right;
+    display: table;
+    padding: 40px;
+    background: #1a3159;
+    position: relative;
+    z-index: 9;
+}
+
+#footer .main .wrap {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#footer .main h3.logo {
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9000px;
+}
+
+#footer .main h3.logo a {
+    display: block;
+    width: 90px;
+    height: 40px;
+    background: url($indeni_footer_logo) no-repeat center;
+}
+
+#footer ul.social {
+    display: block;
+    padding: 8px 0 0;
+    list-style: none;
+}
+
+#footer ul.social li {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2px;
+    text-indent: -9000px;
+    vertical-align: top;
+}
+
+#footer ul.social li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+#footer ul.social li a:hover {
+    border-color: #68c0ed;
+}
+
+#footer ul.social li.linkedin a {
+    background-image: url($indeni_footer_linkedin);
+}
+
+#footer ul.social li.youtube a {
+    background-image: url($indeni_footer_youtube);
+}
+
+#footer ul.social li.twitter a {
+    background-image: url($indeni_footer_twitter);
+}
+
+#footer ul.social li.facebook a {
+    background-image: url($indeni_footer_facebook);
+}
+
+#footer .indeni_meta {
+    display: block;
+    font-size: 11px;
+    line-height: 17px;
+    padding: 20px 0 0;
+}
+
+#footer .indeni_meta .indeni_meta_nav {
+    display: block;
+}
+
+#footer .indeni_meta .indeni_meta_nav ul {
+    display: block;
+    margin: 0 0 6px;
+    list-style: none;
+}
+
+#footer .indeni_meta .indeni_meta_nav ul li {
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 -4px 0 0;
+    border-right: 1px solid #fff;
+}
+
+#footer .indeni_meta .indeni_meta_nav ul li a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#footer .indeni_meta .indeni_meta_nav ul li:last-child {
+    border: 0;
+}
+
+#footer .indeni_meta span {
+    display: block;
+}
+
+.indeni_box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer, nav, main {
+    display: block;
+}
+
+
+@media only screen and (max-width: 1480px){
+#footer .nav{ width: 75%; }
+#footer .main{ width: 25%; }
+}
+
+
+@media only screen and (max-width: 1180px){
+#footer::after{ display: none; }
+#footer .nav{ width: 100%; height: auto !important; float: left; background: #45a9dd; position: relative; z-index: 99; }
+#footer .main{ width: 100%; float: left; display: block; padding: 40px; }
+#footer .main .wrap{ display: block; }
+}
+
+@media only screen and (max-width: 1080px){
+#footer .nav ul li{ padding: 25px 30px 30px; }
+}
+
+@media only screen and (max-width: 920px){
+#footer .nav{ margin-top: -1px; }
+#footer .nav ul li{ width: 100%; padding: 0; border-top: 1px solid #68c0ed; }
+#footer .nav ul li.menu-item-has-children a.parent-0{ display: block; font-size: 18px; padding: 18px 20px; cursor: pointer; position: relative; }
+#footer .nav ul li.menu-item-has-children a.parent-0::after{ 
+content: ''; 
+width: 12px;
+height: 20px; 
+display: block; 
+position: absolute; 
+top: 50%; 
+right: 20px; 
+margin-top: -10px; 
+background: url($indeni_footer_arrow) no-repeat center top 50%;
+-webkit-background-size: 12px 7px; 
+-moz-background-size: 12px 7px;  
+-o-background-size: 12px 7px; 
+background-size: 12px 7px;
+}
+#footer .nav ul li.menu-item-has-children a.parent-0.active::after{ 
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+#footer .nav ul li.menu-item-has-children a:hover.parent-0{ text-decoration: none; }
+#footer .nav ul li ul{ display: none; padding: 0 20px 20px !important; }
+#footer .nav ul li ul li ul{ display: block; padding: 5px 0 !important; }
+
+}
+
+
+@media only screen and (max-width: 480px){
+.section.grid .footer.main{ margin: 0 0 10px; }
+.section.grid.pad .footer.main{ padding: 0 5px; }
+
+}

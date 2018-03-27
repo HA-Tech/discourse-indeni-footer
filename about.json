@@ -1,0 +1,13 @@
+{
+  "name": "Indeni Footer",
+  "about_url": "http://indeni.com",
+  "license_url": "http://indeni.com",
+   "assets": {
+       "indeni_footer_arrow": "assets/indeni_footer_arrow.svg",
+       "indeni_footer_facebook": "assets/indeni_footer_facebook.svg",
+       "indeni_footer_linkedin": "assets/indeni_footer_linkedin.svg",
+       "indeni_footer_logo": "assets/indeni_footer_logo.svg",
+       "indeni_footer_twitter": "assets/indeni_footer_twitter.svg",
+       "indeni_footer_youtube": "assets/indeni_footer_youtube.svg"
+   }
+}
