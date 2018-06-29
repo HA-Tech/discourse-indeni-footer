@@ -206,35 +206,25 @@
 footer, nav, main {
     display: block;
 }
-@media only screen and (max-width:1480px) {
-    #footer .nav {
-        width: 75%;
-    }
-    #footer .main {
-        width: 25%;
-    }
+#footer::after {
+    display: none;
 }
-@media only screen and (max-width:1180px) {
-    #footer::after {
-        display: none;
-    }
-    #footer .nav {
-        width: 100%;
-        height: auto !important;
-        float: left;
-        background: #45a9dd;
-        position: relative;
-        z-index: 99;
-    }
-    #footer .main {
-        width: 100%;
-        float: left;
-        display: block;
-        padding: 40px;
-    }
-    #footer .main .wrap {
-        display: block;
-    }
+#footer .nav {
+    width: 100%;
+    height: auto !important;
+    float: left;
+    background: #45a9dd;
+    position: relative;
+    z-index: 99;
+}
+#footer .main {
+    width: 100%;
+    float: left;
+    display: block;
+    padding: 40px;
+}
+#footer .main .wrap {
+    display: block;
 }
 @media only screen and (max-width:1080px) {
     #footer .nav ul li {
