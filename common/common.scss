@@ -1,9 +1,9 @@
 #footer {
     width: 100%;
-    float: left;
+    float: center;
     color: #fff;
     background: #45a9dd;
-    position: relative;
+    position: center;
     overflow: hidden;
     font-family: 'Roboto',sans-serif;
     font-size: 17px;
@@ -34,14 +34,14 @@
 }
 #footer .nav {
     width: 80%;
-    float: left;
+    float: center;
     background: #45a9dd;
     position: relative;
     z-index: 99;
 }
 #footer .nav ul {
     width: 100%;
-    float: left;
+    float: center;
     position: relative;
     list-style: none;
     margin-left: 0px;
@@ -51,11 +51,12 @@
     float: left;
     display: block;
     padding: 35px 40px 40px;
-    border-left: 1px solid #68c0ed;
+    border-left: 0px solid #68c0ed;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
+    text-align: center;
 }
 #footer .nav ul li a {
     display: block;
@@ -66,7 +67,7 @@
 }
 #footer .nav ul li ul {
     width: 100%;
-    float: left;
+    float: center;
     clear: both;
     padding: 5px 0 !important;
     list-style: none;
@@ -127,6 +128,7 @@
     display: block;
     padding: 8px 0 0;
     list-style: none;
+    margin: 0px auto;
 }
 #footer ul.social li {
     width: 40px;
@@ -212,14 +214,14 @@ footer, nav, main {
 #footer .nav {
     width: 100%;
     height: auto !important;
-    float: left;
+    float: center;
     background: #45a9dd;
     position: relative;
     z-index: 99;
 }
 #footer .main {
     width: 100%;
-    float: left;
+    float: center;
     display: block;
     padding: 40px;
 }
@@ -247,28 +249,6 @@ footer, nav, main {
         padding: 18px 20px;
         cursor: pointer;
         position: relative;
-    }
-    #footer .nav ul li.menu-item-has-children a.parent-0::after {
-        content: '';
-        width: 12px;
-        height: 20px;
-        display: block;
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        margin-top: -10px;
-        background: url($indeni_footer_arrow) no-repeat center top 50%;
-        -webkit-background-size: 12px 7px;
-        -moz-background-size: 12px 7px;
-        -o-background-size: 12px 7px;
-        background-size: 12px 7px;
-    }
-    #footer .nav ul li.menu-item-has-children a.parent-0.active::after {
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        transform: rotate(180deg);
     }
     #footer .nav ul li.menu-item-has-children a:hover.parent-0 {
         text-decoration: none;
